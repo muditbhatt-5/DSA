@@ -10,7 +10,7 @@ public class increament
         // Post-increment example (a++)
         b = a++;
         System.out.println("Post-increment (a++):");
-        System.out.println("Value of b: " + b); // b is assigned 5
+        System.out.println("Value of b:" + b); // b is assigned 5
         System.out.println("Value of a: " + a); // a becomes 6
 
         System.out.println("-------------------------");
