@@ -5,7 +5,6 @@ public class StackExample {
     int top;
     int[] stack = new int[MAX];
 
-    // Constructor
     StackExample() {
         top = -1;
     }
@@ -34,7 +33,7 @@ public class StackExample {
     // Display stack elements
     void display() {
         if (top < 0) {
-            System.out.println("Stack is empty");
+            System.out.println("Stack is empty.");
             return;
         }
         System.out.println("Stack elements are:");
