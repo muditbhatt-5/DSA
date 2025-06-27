@@ -4,7 +4,7 @@ public class BFS {
     private int vertices; // Number of vertices
     private LinkedList<Integer>[] adjList; // Adjacency list
 
-    // Constructor
+    // Constructor..
     public BFS
     (int v) {
         vertices = v;
