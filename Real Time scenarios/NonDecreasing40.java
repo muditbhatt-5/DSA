@@ -1,6 +1,6 @@
 public class NonDecreasing40 {
     public static boolean CheckA(int[] nums) {
-        int count = 0; // To track how many changes we make
+        int count = 0; 
 
         for (int i = 0; i < nums.length - 1; i++) {
             // 4 > 3
@@ -37,3 +37,4 @@ public class NonDecreasing40 {
         }
     }
 }
+
